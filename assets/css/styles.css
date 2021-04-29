@@ -707,3 +707,87 @@ to
         width: min-content;
     }
 }
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+    .article2
+    {
+        width: 70vw;
+       height: 40vh;
+    }
+
+    .article2 h1
+    {
+        font-size: 1.3rem;
+     
+    }
+    .article3 h1
+    {
+        font-size: 1.5rem;
+    }
+    .section1
+    {
+        width: 100%;
+        display: block;
+        grid-template-columns: 1fr;
+    }
+    .section2
+    {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .text h1
+    {
+        width: 30vw;
+        font-size:2rem;
+    }
+    .text1
+    {
+        width: 59vw;
+    }
+    .text1 h1
+    {
+        font-size:2rem;
+        line-height: normal;
+
+    }
+    .articleTgb h1
+    {
+        font-size: 2rem;
+    }
+    .tgbText
+    {
+        font-size: 1rem;
+    }
+    
+    .articleTgb1 h1
+    {
+        font-size: 1rem;
+    }
+    .tpbText
+    {
+        font-size: 1rem;
+    }
+    .endText h1
+    {
+        font-size: 2rem;
+    }
+    .social p
+    {
+        font-size: 1.5rem;  
+      }
+      .sideAnimation
+      {
+        transform-origin: top right;
+        transform:rotate(0deg);
+      }
+    #animation h1
+    {
+        font-size: 3rem;
+        width: min-content;
+    }
+    .logo{
+        position: absolute;
+        top: 180vh;
+    }
+}
