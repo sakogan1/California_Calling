@@ -3,8 +3,22 @@
     font-family: "Larish Neue Semibold";
     src: url("../fonts/LarishNeueSemibold.woff") format("woff")
 }
+
+
+@media only screen and (max-width: 768px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 1rem;
+    }    
+     
+}
+
+
+
    body,html
 { 
+    background-color: #000000;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -18,7 +32,7 @@
     justify-content: center;
     background-color: #000000;
     color: #ffffff;
-    height:50vh ;
+    height:68vh ;
 }
    section
 {
@@ -38,6 +52,10 @@
     width: 2px;
     height: 25vh;
     background-color:#333;
+    background-image: url(../img/line.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
     p
 {
@@ -55,7 +73,7 @@ margin-bottom: 30px;
 }
 .mainText h1
 {
-    font-size: 86px;
+    font-size: 5rem;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0;
@@ -86,8 +104,8 @@ margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 40px;
+    width: 140px;
+    height: 60px;
     border: 1px solid #ffffff;
 }
 .btn:hover
@@ -103,8 +121,8 @@ margin-bottom: 30px;
 }
 .article2 h1
 {
-font-size: 96px;
-word-break: normal;
+    font-size: 5rem;
+    word-break: normal;
 }
 .article3
 {  
@@ -112,7 +130,7 @@ word-break: normal;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image: url(/assets/img/map.svg);
+    background-image: url(../img/map.svg);
     background-repeat: no-repeat;
     background-position: right;    
 }
@@ -141,20 +159,21 @@ word-break: normal;
     margin: 0;
     font-size:83px;
     margin-bottom: 20px;
+    z-index: 3;
 }
 .text p
 {
     margin: 0;
     font-size: 16px;
     line-height: 30px;
+    z-index: 3;
 }
-
 .img
 {
     position: absolute;
     top:-4vh;
     right: 10vw;
-    background-image: url(/assets/img/action1.jpeg);
+    background-image: url(../img/action1.jpeg);
     background-position: center;
     background-size: cover;
     width:23vw;
@@ -167,7 +186,7 @@ word-break: normal;
     position: absolute;
     top:3vh;
     left: 4vw;
-    background-image: url(/assets/img/action2.jpeg);
+    background-image: url(../img/action2.jpeg);
     background-position: center;
     background-size: cover;
     width:20vw;
@@ -179,7 +198,7 @@ word-break: normal;
     position: absolute;
     bottom:15vh;
     right: 0;
-    background-image: url(/assets/img/action3.jpeg);
+    background-image: url(../img/action3.jpeg);
     background-size: cover;
     background-position: center;
     width:23vw;
@@ -196,7 +215,7 @@ word-break: normal;
     position: absolute;
     top:115vh;
     left: 15vw;
-    background-image: url(/assets/img/action4.jpeg);
+    background-image: url(../img/action4.jpeg);
     background-size: cover;
     background-position: center;
     width:23vw;
@@ -208,7 +227,7 @@ word-break: normal;
     position: absolute;
     top:30vh;
     right: 10vw;
-    background-image: url(/assets/img/action5.jpeg);
+    background-image: url(../img/action5.jpeg);
     background-size: cover;
     background-position: center;
     width:23vw;
@@ -220,7 +239,7 @@ word-break: normal;
     position: absolute;
     top:50vh;
     left: 0;
-    background-image: url(/assets/img/action5.jpeg);
+    background-image: url(../img/action5.jpeg);
     background-size: cover;
     background-position: center;
     width:23vw;
@@ -235,16 +254,270 @@ word-break: normal;
     line-height: 30px;
     width:32vw;
     height: 22vh;
-    z-index: 1;
+    z-index: 3;
 }
-.img6{
+.img6
+{
     position: absolute;
     bottom:-10vh;
     right: 20vw;
-    background-image: url(/assets/img/action6.jpeg);
+    background-image: url(../img/action7.jpeg);
     background-size: cover;
     background-position: center;
     width:32vw;
     height: 32vh;
     z-index: 1;
 }
+.articleTgb, .sectionTpb
+{
+    position: unset;
+    height: 150vh;
+    display: block;
+}
+.tgb 
+{
+    width: 25vw;
+    height: 25vh;
+    padding-left: 10vw;
+    padding-top: 20vh;
+}
+.tgb h1
+{
+    width: 25vw;
+    height: 30vh;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+}
+.tgb p
+{
+    margin-bottom: 0;
+    z-index: 3;
+}
+.wrapper
+{   
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wrapper1
+{   
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tgbText, .tpbText
+{
+    margin-left: 15vw;
+    width: 40vw;
+    font-size: 30px;
+}
+.picture1
+{
+    position: relative;
+    left: 10vw;
+    bottom: -30vh;
+    width: 60vw;
+    height: 100vh;
+    background-image: url(../img/goldenbear.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+}
+.picture2
+{ 
+    position: absolute;
+    width: 25vw;
+    height: 60vh;
+    top:100vh;
+    left: 65vw;
+    background-image: url(../img/gb2.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+}
+.articleTgb
+{
+    position: relative;
+}
+
+.articleTgb1
+{
+    position: relative;
+    height: 175vh;
+    z-index: 1;
+
+}
+.circleRotation
+{
+    position: absolute;
+    top: -8vh;
+    right: -10vw;
+    background-image: url(../img/cc-circle-2.png);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 30vw;
+    z-index: 1;
+    animation: rotation 15s ease infinite;
+}
+
+@keyframes rotation
+{
+from
+{
+    transform: rotate(0deg)
+}
+to
+{
+    transform: rotate(360deg);
+}
+}
+.tpb h1
+{
+    width: 25vw;
+    height: 30vh;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+}
+.tpb p
+{
+    margin:0;
+}
+.tpb 
+{
+    width: 25vw;
+    height: 25vh;
+    padding-left: 10vw;
+    padding-top: 40vh;
+}
+.picture3
+{
+    position: relative;
+    left: 30vw;
+    bottom: -20vh;
+    width: 60vw;
+    height: 80vh;
+    background-image: url(../img/rosebear.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+}
+.picture4
+{ 
+    position: absolute;
+    width: 25vw;
+    height: 60vh;
+    top:94vh;
+    left: 10vw;
+    background-image: url(../img/pb3.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+}
+.end
+{
+    height:80vh;
+
+}
+.btn1
+{   color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 60px;
+    border: 1px solid #ffffff;
+}
+.btn1:hover
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+.end
+{
+    position: relative;
+    padding-top: 5vh;
+    display: block;
+}
+.endText
+{
+    width: 33vw;
+    padding-left: 10vw;
+}
+.endText h1
+{
+    font-size: 2Rem;
+}
+.social
+{
+    padding-left: 10vw;
+    height: 20px;
+}
+.social img
+{
+    padding-top: 20vh;
+    width: 2vw;
+}
+.logo
+{
+    padding-right: 10vw;
+    position: absolute;
+    bottom: -20vh;
+    right:10vw;
+}
+.logo img
+{
+    width: auto;
+    height: 4vh;
+}
+.sideAnimation{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:0;
+    right:0;
+    font-size: 3rem;
+    word-break:unset;
+    width: 100vw;
+    height: 12vh;
+    white-space: nowrap;
+    clear: both;
+    background-color: #fff;
+    color: #000000;
+    transform-origin: top right;
+    transform:rotate(45deg);
+    
+}
+.sideAnimation h1{
+    margin: 0;
+    padding: 0;
+    line-height: 0.9;
+    transition: all 4s ease;
+}
+
+#animation{
+    position: relative;
+    transition: all 4s ease;
+    animation: move 10s ease-in-out infinite ;
+}
+.sideAnimation strong{
+        color: #ffffff;;
+      text-shadow:
+       -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+    
+}
+@keyframes move {
+    0% { left: 0; }
+    30% { left:30%; }
+    68%, 72% { left: 50%; }
+    100% { left: 100%; }
+  }
