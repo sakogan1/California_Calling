@@ -1,0 +1,250 @@
+@font-face 
+{
+    font-family: "Larish Neue Semibold";
+    src: url("../fonts/LarishNeueSemibold.woff") format("woff")
+}
+   body,html
+{ 
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: "Larish Neue Semibold";
+}
+   article
+{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+    height:50vh ;
+}
+   section
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+    header
+{
+    height: 25vh;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+    span
+{
+    width: 2px;
+    height: 25vh;
+    background-color:#333;
+}
+    p
+{
+margin-top: 30px;
+font-size: 16px;
+margin-bottom: 30px;
+}
+.mainText
+{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.mainText h1
+{
+    font-size: 86px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom:0 ;
+    line-height: 0.6;
+}
+.mainText h1:nth-of-type(2)
+{
+    color: #000;;
+  text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+.article1
+{
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+}
+.space
+{
+    width: 50%;
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ffffff;
+}
+.btn:hover
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.article2
+{
+    padding-left: 10vw;
+    height: 70vh;
+}
+.article2 h1
+{
+font-size: 96px;
+word-break: normal;
+}
+.article3
+{  
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(/assets/img/map.svg);
+    background-repeat: no-repeat;
+    background-position: right;    
+}
+.article3 h1
+{   margin-top: 0;
+    margin-bottom: 0;
+    font-size: 96px;
+    word-break: normal;
+}
+.section1
+{
+    height: 100vh;
+    position: relative;
+    word-break:normal
+}
+.text
+{
+    position: absolute;
+    width: 32vw;
+    height: 40vh;
+    top: 30vh;
+    left:35vw;
+}
+.text h1
+{
+    margin: 0;
+    font-size:83px;
+    margin-bottom: 20px;
+}
+.text p
+{
+    margin: 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.img
+{
+    position: absolute;
+    top:-4vh;
+    right: 10vw;
+    background-image: url(/assets/img/action1.jpeg);
+    background-position: center;
+    background-size: cover;
+    width:23vw;
+    height: 19vh;
+    z-index: 1;
+}
+
+.img1
+{
+    position: absolute;
+    top:3vh;
+    left: 4vw;
+    background-image: url(/assets/img/action2.jpeg);
+    background-position: center;
+    background-size: cover;
+    width:20vw;
+    height: 22vh;
+    z-index: 1;
+}
+.img2
+{
+    position: absolute;
+    bottom:15vh;
+    right: 0;
+    background-image: url(/assets/img/action3.jpeg);
+    background-size: cover;
+    background-position: center;
+    width:23vw;
+    height: 22vh;
+    z-index: 1;
+}
+.section2
+{
+    height: 100vh;
+    position: relative;
+}
+.img3
+{
+    position: absolute;
+    top:115vh;
+    left: 15vw;
+    background-image: url(/assets/img/action4.jpeg);
+    background-size: cover;
+    background-position: center;
+    width:23vw;
+    height: 22vh;
+    z-index: 1;
+}
+.img4
+{
+    position: absolute;
+    top:30vh;
+    right: 10vw;
+    background-image: url(/assets/img/action5.jpeg);
+    background-size: cover;
+    background-position: center;
+    width:23vw;
+    height: 22vh;
+    z-index: 1;
+}
+.img5
+{
+    position: absolute;
+    top:50vh;
+    left: 0;
+    background-image: url(/assets/img/action5.jpeg);
+    background-size: cover;
+    background-position: center;
+    width:23vw;
+    height: 22vh;
+    z-index: 1;
+}
+.text1
+{
+    position: absolute;
+    top:52vh;
+    left: 34vw;
+    line-height: 30px;
+    width:32vw;
+    height: 22vh;
+    z-index: 1;
+}
+.img6{
+    position: absolute;
+    bottom:-10vh;
+    right: 20vw;
+    background-image: url(/assets/img/action6.jpeg);
+    background-size: cover;
+    background-position: center;
+    width:32vw;
+    height: 32vh;
+    z-index: 1;
+}
